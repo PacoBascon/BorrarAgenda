@@ -5,7 +5,7 @@
 #Buscamos un nombre en la agenda y si esta preguntamos que si queremos borrarlo
 
 
-def borrarnombre(nombre, agenda): 
+def borrarnombre_PBascon(nombre, agenda): 
         if nombre in agenda:
         opc = input("Pulsa 's' si quieres borrarlo!!!
         if opc == "s":
